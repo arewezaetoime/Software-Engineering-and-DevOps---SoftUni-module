@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test('Checking user add a task', async({ page }) => {
-    await page.goto('http://127.0.0.1:5500/');
+    await page.goto('http://127.0.0.1:5500/04_Automated_Testing/to-do-app/index.html');
     await page.fill('#task-input', 'Test Task');
     await page.click('#add-task');
 
@@ -10,7 +10,7 @@ test('Checking user add a task', async({ page }) => {
 });
 
 test('User delete task', async ({ page }) => {
-    await page.goto('http://127.0.0.1:5500/')
+    await page.goto('http://127.0.0.1:5500/04_Automated_Testing/to-do-app/index.html')
     await page.fill('#task-input', 'delete task')
     await page.click('#add-task')
     
