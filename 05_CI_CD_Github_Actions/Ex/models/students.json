@@ -1,8 +1,5 @@
 [
     {"name" : "Marry", "email" : "marry@gmail.com"},
     {"name" : "Steve" , "email" : "steve@yahoo.com"},
-    {"name" : "Teddy" , "email" : "teddy@mail.ru"},
-    {"name" : "kk" , "email" : "tmaybe@mail.ru"},
-    {"name" : "kk" , "email" : "tmaybe@mail.ru"},
-    {"name" : "kk" , "email" : "tmaybe@mail.ru"}
+    {"name" : "Teddy" , "email" : "teddy@mail.ru"}
 ]
