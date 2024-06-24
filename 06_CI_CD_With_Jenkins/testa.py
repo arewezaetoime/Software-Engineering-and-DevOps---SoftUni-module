@@ -8,7 +8,7 @@ tryLambda()
 
 
 class MyClass():
-    
+
     def __init__(self, artifact, packet, shell) -> None:
         self.artifact = artifact
         self.packet = packet
@@ -26,4 +26,5 @@ class MyClass():
     def __repr__(self) -> str:
         return f'{self.artifact}, {self.packet}, {self.shell}'
     
+
 
