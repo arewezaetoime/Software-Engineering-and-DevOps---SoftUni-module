@@ -5,3 +5,26 @@ def tryLambda():
     print(new_list)
 
 tryLambda()
+
+
+class MyClass():
+
+    def __init__(self, artifact, packet, shell) -> None:
+        self.artifact = artifact
+        self.packet = packet
+        self.shell = shell
+
+
+    @classmethod
+    def from_string(cls, string):
+        artifact, packet, shell = string.split(',')
+        return cls(artifact, packet, shell)
+    
+    def __str__(self) -> str:
+        return f'{self.artifact}, {self.packet}, {self.shell}'
+    
+    def __repr__(self) -> str:
+        return f'{self.artifact}, {self.packet}, {self.shell}'
+    
+
+
